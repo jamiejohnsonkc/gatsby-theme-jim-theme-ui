@@ -72,7 +72,21 @@ export default {
 			zIndex: 4,
 			bottom: '2em',
 			right: '2em',
+			verticalAlign: 'sub',
 		},
+		fixedRound: {
+			position: 'fixed',
+			display: 'inline-grid',
+			alignContent: 'center',
+			justifyContent: 'center',
+			height: '2em',
+			width: '2em',
+			zIndex: 4,
+			bottom: '2em',
+			right: '2em',
+			verticalAlign: 'sub',
+			borderRadius: '100%',
+		}
 	},
 	radialSelected: {
 		borderColor: 'transparent',
