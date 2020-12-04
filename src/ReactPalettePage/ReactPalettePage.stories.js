@@ -2,7 +2,7 @@ import React from 'react'
 import ReactPalettePage from './ReactPalettePage'
 
 export default {
-title: 'ReactPalettePage',
+title: 'Pages/ReactPalettePage',
 }
 
 export const standard = () => (

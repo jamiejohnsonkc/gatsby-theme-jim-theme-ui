@@ -4,6 +4,7 @@ export const options = {
 	headerLineHeight: 1.2,
 	scaleRatio: 7 / 3,
 	headerFontFamily: [
+		'Roboto',
 		'Source Sans Pro',
 		'Arial',
 		'Avenir Next',
@@ -12,7 +13,7 @@ export const options = {
 		'Helvetica',
 		'sans-serif',
 	],
-	bodyFontFamily: ['Spectral', 'georgia', 'serif'],
+	bodyFontFamily: ['Roboto', 'georgia', 'serif'],
 	monospaceFontFamily: ['Source Code Pro', 'monospace'],
 	// thin: 200,
 	// light: 300,

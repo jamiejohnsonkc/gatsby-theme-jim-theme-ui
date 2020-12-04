@@ -71,6 +71,7 @@ import neutrals from './palettes/neutrals'
 import kAlpha from './palettes/utilities/kAlpha'
 import wAlpha from './palettes/utilities/wAlpha'
 import gray from './palettes/light/gray'
+import lime from './palettes/light/lime'
 import whiteOverlay from './palettes/utilities/whiteOverlay'
 import blackOverlay from './palettes/utilities/blackOverlay'
 import primaryOverlay from './palettes/utilities/primaryOverlay'
@@ -96,6 +97,7 @@ export default {
 	primaryDark: lightBlue[700],
 	primaryLight: lightBlue[400],
 
+	secondary: lime[500],
 
 	// primary: neutrals.black[500],
 	// primaryDark: neutrals.black[900],

@@ -4,7 +4,7 @@ import React from 'react'
 import ThemeUiColorModeToggle from './ThemeUiColorModeToggle'
 
 export default {
-	title: 'Design Elements/Inputs/Toggles/Color Mode Toggle',
+	title: 'Ui/Inputs/Toggles/Color Mode Toggle',
 }
 
 export const standard = (props) => (
