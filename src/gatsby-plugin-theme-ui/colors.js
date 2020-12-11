@@ -1,3 +1,4 @@
+/* eslint-disable spaced-comment */
 //! COLORS
 
 //TODO create color function to automatically generate light/dark variants of primary  & secondary colors

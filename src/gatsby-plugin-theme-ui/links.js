@@ -70,12 +70,35 @@ export default {
 		},
 	},
 
-	ctaLink: {
-		arrowRight: {
-			lineHeight: 1,
-			alignItems: 'center',
-		},
-	},
+  ctaLink: {
+    mb: [0, 0, 0, 0, 0, 4],
+    display: 'inline-block',
+    verticalAlign: 'middle',
+    textAlign: ['left', 'left', 'left', 'center', 'center', 'center'],
+    gridColumnStart: '1',
+    gridColumnEnd: '5',
+    '&:hover':{
+cursor: 'pointer',
+    },
+    '& .linkText': {
+      fontSize: [1, 3, 3, 3, 2, 2],
+      mr: 2,
+      fontFamily: 'heading',
+      color: 'primary',
+      fontWeight: 'bold',
+    },
+    '& .linkVisual': {
+      '& > svg': {
+        height: ['.5em', '.75em', '.5em', '.5em', '.65em', '.65em'],
+        width: ['.5em', '.75em', '.5em', '.5em', '.65em', '.65em'],
+        fill: 'primary',
+      },
+    },
+    arrowRight: {
+      lineHeight: 1,
+      alignItems: 'center',
+    },
+  },
 
 	searchButton: {
 		lineHeight: 1,

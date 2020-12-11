@@ -14,26 +14,8 @@ import links from './links'
 import buttons from './buttons'
 import palette from './palette'
 import nav from './nav'
-import animation from './ex-theme-ui/animation'
+// import animation from './ex-theme-ui/animation'
 import gradients from './ex-theme-ui/gradients'
-// import main from "./main"
-
-// const jimMaxWidth = {
-
-// 		'23': '23.6%',
-// 		'38': '38.2%',
-// 		'50': '50%',
-// 		'61': '61.8%',
-// 		'83': '83.82%',
-// 		'100': '100%',
-// }
-
-// export const sizes= {
-// 	...jimMaxWidth,
-// 	container: {
-
-// 	},
-// },
 
 const typography = toTheme(merge(wp2016, options), {})
 
@@ -46,22 +28,10 @@ export default merge(typography, {
     links,
     buttons,
     forms,
-    animation,
     gradients,
     breakpoints: ['40em', '52em', '58em', '80em', '100em'], // px-  0, 640, 832, 960, 1280, 1600
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512, 640, 768],
-    // 	widths: [
-    // 		'6.18%',
-    // 		'9.99%',
-    // 		'16.18%',
-    // 		'23.6%',
-    // 		'38.2%',
-    // 		'50%',
-    // 		'61.8%',
-    // 		'83.82%',
-    // 	],
 
-    // type variants
     sizes: {
         container: {
             0: '23.6%',
@@ -71,20 +41,6 @@ export default merge(typography, {
             4: '83.82%',
             5: '100%',
         },
-//         buttonSizes: {
-// small: '',
-// medium:'',
-// large: '',
-//         },
-
-        // minHeight: {
-        // 	'1': '450px',
-        // 	'2': '1200px',
-        // 	'3': '100vh',
-        // 	'4': '100vh',
-        // 	'5': '100vh',
-        // 	'6': '100vh',
-        // },
     },
 
     letterSpacings: {
@@ -104,11 +60,6 @@ export default merge(typography, {
         bold: 700, // default bold
         heavy: 900,
     },
-    // lineHeights: {
-    // 	body: 2,
-    // 	heading: 1.2,
-    // 	display: 1.5,
-    // },
 
     // Typography variants:
     caps: {
@@ -132,15 +83,11 @@ export default merge(typography, {
         letterSpacing: 'tight',
         mb: 4,
         lineHeight: [1.2, null, null, 1.2, 1.2, 1.2],
-
-        // lineHeight: 'heading',
     },
     subhead: {
         fontFamily: 'heading',
         fontWeight: 'bold',
         mb: 4,
-
-        // lineHeight: 'heading',
         color: 'text',
     },
     subline: {
@@ -155,6 +102,7 @@ export default merge(typography, {
         fontFamily: 'heading',
         fontWeight: 'normal',
     },
+
     bodyCopy: {
         fontFamily: 'body',
         color: 'text',
@@ -183,43 +131,22 @@ export default merge(typography, {
             color: 'text',
             fontSize: 3,
         },
-        // intro: {
-        // 	//TODO shadow
-
-        // 	lineHeight: 1.05,
-        // 	letterSpacing: 'snug',
-        // 	fontSize: [5, 6, 6, 6, 7, 7],
-        // },
-
-        // introSubtle: {
-        // 	fontFamily: 'heading',
-        // 	fontWeight: 'heavy',
-        // 	lineHeight: 1.2,
-        // 	letterSpacing: 'snug',
-        // 	fontSize: [4, 5, 5, 5, 5, 6],
-        // },
         d1: {
-            // variant: 'text.display',
             lineHeight: 1.6,
             fontSize: 5,
-            // fontWeight: 'normal',
-            // letterSpacing: '0',
             maxWidth: '41em',
         },
         d2: {
-            // variant: 'text.display',
             fontSize: 4,
             lineHeight: 1.6,
             maxWidth: '41em',
         },
         d3: {
-            // variant: 'text.display',
             lineHeight: 1.4,
             fontSize: 3,
             maxWidth: '40em',
         },
         d4: {
-            // variant: 'text.display',
             lineHeight: 1.4,
             fontWeight: 'normal',
             fontSize: 2,
@@ -313,7 +240,6 @@ export default merge(typography, {
 
         h1: {
             fontSize: [6, 7, null, null, 7, null],
-            // mb: 6,
         },
         h2: {
             fontSize: 5,
@@ -408,13 +334,13 @@ export default merge(typography, {
         depth: `0 5px 20px -10px #000`,
         callOut: `0 0 4.236em rgba(14,30,37,.09)`,
         uiDivide: `0 2px 20px rgba(14,30,37,.5)`,
-        // test2: (theme) => `0 0 4px 3px ${theme.colors.primary}`,
+
         //* themed
         primary: `0 0 4px 3px ${colors.primary}`,
         primaryFaint: '0 0 4px 3px rgba(1.2%, 66.3%, 95.7%, .25)',
         primarySubtleFirmLR: '2px 2px 6px 0px rgba(1.2%, 66.3%, 95.7%, .25)',
     },
-    // boxShadow: (theme) => `0 0 4px ${theme.colors.primary}`, },
+
     flair: {
         revHilightHoverText: {
             backfaceVisibility: 'hidden',
