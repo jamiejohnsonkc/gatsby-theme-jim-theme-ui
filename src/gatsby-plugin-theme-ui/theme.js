@@ -313,7 +313,7 @@ export default merge(typography, {
 
         h1: {
             fontSize: [6, 7, null, null, 7, null],
-            mb: 6,
+            // mb: 6,
         },
         h2: {
             fontSize: 5,
