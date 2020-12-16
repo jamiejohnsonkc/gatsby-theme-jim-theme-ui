@@ -29,7 +29,7 @@ export default merge(typography, {
     buttons,
     forms,
     gradients,
-    breakpoints: ['40em', '52em', '58em', '80em', '100em'], // px-  0, 640, 832, 960, 1280, 1600
+    // breakpoints: ['0em','40em', '51em', '58em', '80em', '100em'], // px-  0, 640, 816, 928, 1280, 1600
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512, 640, 768],
 
     sizes: {
@@ -176,20 +176,20 @@ export default merge(typography, {
             fontSize: 1,
             maxWidth: '41em',
         },
-        text_lg: {
+        p1: {
             variant: 'text.copy',
             lineHeight: 2,
             fontSize: [2, 3, null, null, 2, null],
             maxWidth: '41em',
             mb: 4,
         },
-        text_md: {
+        p2: {
             variant: 'text.copy',
             lineHeight: 2,
             fontSize: [1, 2, null, null, 2, null],
             maxWidth: '41em',
         },
-        text_sm: {
+        p3: {
             variant: 'text.copy',
             lineHeight: 2,
             fontSize: 0,
@@ -222,7 +222,7 @@ export default merge(typography, {
             letterSpacing: 'tight',
             fontSize: [6, 8, null, 6, 8, null],
         },
-        hxxl: {
+        h3: {
             fontFamily: 'heading',
             fontWeight: 'heavy',
             lineHeight: 1.2,
