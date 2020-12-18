@@ -21,7 +21,7 @@ const FontFamilyStories = (props) => (
                 sx={{
                     variant: 'styles.d3',
                     fontFamily: 'Roboto',
-                    fontWeight: 'regular',
+                    fontWeight: 'normal',
                 }}
             >
                 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx
@@ -33,7 +33,7 @@ const FontFamilyStories = (props) => (
                 sx={{
                     variant: 'styles.d3',
                     fontFamily: 'Roboto slab',
-                    fontWeight: 'regular',
+                    fontWeight: 'normal',
                 }}
             >
                 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx
@@ -45,7 +45,7 @@ const FontFamilyStories = (props) => (
                 sx={{
                     variant: 'styles.d3',
                     fontFamily: 'Source Code Pro',
-                    fontWeight: 'regular',
+                    fontWeight: 'normal',
                 }}
             >
                 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx

@@ -213,7 +213,7 @@ export default merge(typography, {
         root: {
             fontFamily: 'body',
             lineHeight: 'body',
-            fontWeight: 'regular',
+             fontWeight: 'normal',
         },
 
         hxxxl: {

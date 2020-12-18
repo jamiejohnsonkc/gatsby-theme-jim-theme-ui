@@ -24,7 +24,7 @@ export const standard = (props) => (
 				sx={{
 					variant: 'styles.d3',
 					fontFamily: 'Roboto',
-					fontWeight: 'regular',
+					 fontWeight: 'normal',
 				}}
 			>
 				ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx 123456789!@#$%
@@ -35,7 +35,7 @@ export const standard = (props) => (
 				sx={{
 					variant: 'styles.d3',
 					fontFamily: 'Roboto slab',
-					fontWeight: 'regular',
+					 fontWeight: 'normal',
 				}}
 			>
 				ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx 123456789!@#$%
@@ -46,7 +46,7 @@ export const standard = (props) => (
 				sx={{
 					variant: 'styles.d3',
 					fontFamily: 'Source Code Pro',
-					fontWeight: 'regular',
+					 fontWeight: 'normal',
 				}}
 			>
 				ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx 123456789!@#$%

@@ -11,149 +11,98 @@ const heading = {
 }
 
 const body = {
-	fontFamily: 'body',
+    fontFamily: 'body',
 }
 
 export const styles = {
     root: {
         fontFamily: 'body',
         fontSize: 2,
-        fontWeight: 'regular',
+         fontWeight: 'normal',
         lineHeight: 'body',
     },
     img: {
         maxWidth: '100%',
     },
-    bu1: assign(
-        {
-            fontSize: 12,
-            fontWeight: 'heavy',
-        },
-        heading
-    ),
-    bu2: assign(
-        {
-            fontSize: 11,
-            fontWeight: 'heavy',
-        },
-        heading
-    ),
-    bu3: assign(
-        {
-            fontSize: 10,
-            fontWeight: 'heavy',
-        },
-        heading
-    ),
+    bu1: assign({
+        fontSize: 12,
+        fontWeight: 'heavy',
+    }),
+    bu2: assign({
+        fontSize: 11,
+        fontWeight: 'heavy',
+    }),
+    bu3: assign({
+        fontSize: 10,
+        fontWeight: 'heavy',
+    }),
 
-    h1: assign(
-        {
-            fontSize: 9,
-        },
-        heading
-    ),
-    h2: assign(
-        {
-            fontSize: 8,
-        },
-        heading
-    ),
-    h3: assign(
-        {
-            fontSize: 7,
-        },
-        heading
-    ),
-    h4: assign(
-        {
-            fontSize: 6,
-        },
-        heading
-    ),
-    h5: assign(
-        {
-            fontSize: 5,
-        },
-        heading
-    ),
-    h6: assign(
-        {
-            fontSize: 4,
-        },
-        heading
-    ),
-    d1: assign(
-        {
-            fontSize: 7,
-        },
-        heading
-    ),
-    d2: assign(
-        {
-            fontSize: 6,
-        },
-        heading
-    ),
-    d3: assign(
-        {
-            fontSize: 5,
-        },
-        heading
-    ),
-    d4: assign(
-        {
-            fontSize: 4,
-        },
-        heading
-		),
-		d5: assign(
-			{
-					fontSize: 3,
-			},
-			heading
-	),
-	d6: assign(
-		{
-				fontSize: 2,
-		},
-		heading
-),
+    h1: assign({
+        fontSize: 9,
+    }),
+    h2: assign({
+        fontSize: 8,
+    }),
+    h3: assign({
+        fontSize: 7,
+    }),
+    h4: assign({
+        fontSize: 6,
+    }),
+    h5: assign({
+        fontSize: 5,
+    }),
+    h6: assign({
+        fontSize: 4,
+    }),
+    d1: assign({
+        fontSize: 7,
+    }),
+    d2: assign({
+        fontSize: 6,
+    }),
+    d3: assign({
+        fontSize: 5,
+    }),
+    d4: assign({
+        fontSize: 4,
+    }),
+    d5: assign({
+        fontSize: 3,
+    }),
+    d6: assign({
+        fontSize: 2,
+    }),
 
     b1: assign(
         {
             fontSize: 5,
         },
-        body
     ),
     b2: assign(
         {
             fontSize: 4,
         },
-        body
     ),
     b3: assign(
         {
             fontSize: 3,
         },
-        body
     ),
     p1: assign(
         {
             fontSize: 3,
         },
-        body
     ),
     p2: assign(
         {
             fontSize: 2,
         },
-        body
     ),
     p3: assign(
         {
             fontSize: 1,
         },
-        body
     ),
 
     ul: {
@@ -177,26 +126,6 @@ export const styles = {
             my: 2,
             ml: 3,
         },
-        p: {
-            mb: 2,
-        },
-    },
-    p: {
-        fontSize: 1,
-    },
-    p2: {
-        fontSize: 1,
-    },
-
-    p3: {
-        fontSize: 0,
-    },
-
-    p2: {
-        fontSize: 1,
-    },
-    p1: {
-        fontSize: 2,
     },
 
     table: {
@@ -261,19 +190,19 @@ const headings = [
     'h3',
     'h4',
     'h5',
-		'h6',
-		'd1',
-		'd2',
-		'd3',
+    'h6',
+    'd1',
+    'd2',
+    'd3',
     'd4',
     'd5',
     'd6',
 ]
 const blockElements = [
-    ...headings,
+    // ...headings,
     'ul',
     'ol',
-    'p',
+    // 'p',
     'pre',
     'table',
     'blockquote',
@@ -286,8 +215,8 @@ blockElements.forEach((tag) => {
         [tag]: assign(
             {
                 padding: 0,
-                margin: 0,
-                marginBottom: 2,
+                // margin: 0,
+                // marginBottom: 2,
             },
             styles[tag]
         ),
