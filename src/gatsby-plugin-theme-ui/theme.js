@@ -71,11 +71,11 @@ export default merge(typography, {
             4: '83.82%',
             5: '100%',
         },
-//         buttonSizes: {
-// small: '',
-// medium:'',
-// large: '',
-//         },
+        //         buttonSizes: {
+        // small: '',
+        // medium:'',
+        // large: '',
+        //         },
 
         // minHeight: {
         // 	'1': '450px',
@@ -415,7 +415,7 @@ export default merge(typography, {
         primarySubtleFirmLR: '2px 2px 6px 0px rgba(1.2%, 66.3%, 95.7%, .25)',
     },
     // boxShadow: (theme) => `0 0 4px ${theme.colors.primary}`, },
-    flair: {
+    hovers: {
         revHilightHoverText: {
             backfaceVisibility: 'hidden',
             background: 'none',
@@ -478,6 +478,9 @@ export default merge(typography, {
             willChange: 'transform',
             zIndex: '1',
         },
+        hoverTextFill: {
+
+        }
     },
     flex: {
         columnRow: {
