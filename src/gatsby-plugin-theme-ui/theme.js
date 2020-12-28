@@ -341,7 +341,7 @@ export default merge(typography, {
         primarySubtleFirmLR: '2px 2px 6px 0px rgba(1.2%, 66.3%, 95.7%, .25)',
     },
 
-    flair: {
+    hovers: {
         revHilightHoverText: {
             backfaceVisibility: 'hidden',
             background: 'none',

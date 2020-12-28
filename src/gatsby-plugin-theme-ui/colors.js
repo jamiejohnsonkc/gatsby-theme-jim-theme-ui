@@ -134,6 +134,18 @@ export default {
 	revOverlay5: wAlpha[500],
 	revOverlay95: wAlpha[950],
 
+
+	breakPoints: [
+		    'red',
+		    'green',
+		    'blue',
+		    'cyan',
+		    'magenta',
+		    'yellow',
+		    'black',
+		    'purple',
+		],
+
 	//$ OneOffs
 	gray300: gray[300],
 	gray: gray[500],
