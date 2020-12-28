@@ -1,23 +1,13 @@
 /** @jsx jsx */
 import PropTypes from 'prop-types'
-import { jsx, Grid, Box, Text, Heading, Styled } from 'theme-ui'
+import { jsx, Grid, Box, Text, Styled } from 'theme-ui'
 import React from 'react'
 
-import Layout from '../../Layout'
+import Layout from '../Layout'
+import Section from '../Section'
+import Article from '../Article'
 
 import ThemeUiColorModeToggle from '../../ThemeUiColorModeToggle'
-
-// const RowHead = (props) => (
-// 	<td
-// 		{...props}
-// 		bg={props.background}
-// 		sx={{
-// 			height: '3em',
-// 		}}
-// 	/>
-// )
-
-// let primaryColor = Object.values(colors.primary)
 
 const ColorBox = ({ mode, bg, props }) => (
     <Box
