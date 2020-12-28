@@ -3,6 +3,7 @@ export default {
 	fullBlack: '#000000',
 
 	black: {
+		'50': '#f9f9f9',
 		'100': '#f7f7f7',
 		'200': '#bababa',
 		'300': '#7d7d7d',

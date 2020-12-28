@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { jsx, Grid, Box, Text, Heading, Styled } from 'theme-ui'
 import React from 'react'
 
-import Layout from '../Layout'
+import Layout from '../../Layout'
 
-import ThemeUiColorModeToggle from '../ThemeUiColorModeToggle'
+import ThemeUiColorModeToggle from '../../ThemeUiColorModeToggle'
 
 // const RowHead = (props) => (
 // 	<td

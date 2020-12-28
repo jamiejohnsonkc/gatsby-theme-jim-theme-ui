@@ -58,8 +58,8 @@ export default {
 	},
 
 	navSearch: {
-		display: ['none', 'none', 'flex', 'flex'],
-		visibility: ['hidden', 'hidden', 'visible', 'visible'],
+		display: ['none', 'none', 'flex', 'flex','flex', 'flex'],
+		visibility: ['hidden', 'hidden', 'visible', 'visible','visible', 'visible'],
 		padding: 1,
 		'&:hover': {
 			color: 'background',
@@ -70,17 +70,40 @@ export default {
 		},
 	},
 
-	ctaLink: {
-		arrowRight: {
-			lineHeight: 1,
-			alignItems: 'center',
-		},
-	},
+  ctaLink: {
+    mb: [0, 0, 0, 0, 0, 4,4,4],
+    display: 'inline-block',
+    verticalAlign: 'middle',
+    textAlign: ['left', 'left', 'left', 'center', 'center', 'center','center', 'center'],
+    gridColumnStart: '1',
+    gridColumnEnd: '5',
+    '&:hover':{
+cursor: 'pointer',
+    },
+    '& .linkText': {
+      fontSize: [1, 2, 3, 1, 2, 2,2,2],
+      mr: 2,
+      fontFamily: 'heading',
+      color: 'primary',
+      fontWeight: 'bold',
+    },
+    '& .linkVisual': {
+      '& > svg': {
+        height: ['.5em', '.75em', '.5em', '.5em', '.65em', '.65em','.65em', '.65em'],
+        width: ['.5em', '.75em', '.5em', '.5em', '.65em', '.65em','.65em', '.65em'],
+        fill: 'primary',
+      },
+    },
+    arrowRight: {
+      lineHeight: 1,
+      alignItems: 'center',
+    },
+  },
 
 	searchButton: {
 		lineHeight: 1,
-		visibility: ['visible', 'visible', 'hidden', 'hidden'],
-		display: ['flex', 'flex', 'none', 'none'],
+		visibility: ['visible', 'visible', 'hidden', 'hidden','hidden', 'hidden','hidden', 'hidden'],
+		display: ['flex', 'flex', 'none', 'none','none', 'none','none', 'none'],
 		alignItems: 'center',
 		color: 'navMenuBackground_SM',
 		'&:hover': {
