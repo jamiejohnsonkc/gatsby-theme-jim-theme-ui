@@ -340,7 +340,7 @@ export default merge(typography, {
         primaryFaint: '0 0 4px 3px rgba(1.2%, 66.3%, 95.7%, .25)',
         primarySubtleFirmLR: '2px 2px 6px 0px rgba(1.2%, 66.3%, 95.7%, .25)',
     },
-
+    // boxShadow: (theme) => `0 0 4px ${theme.colors.primary}`, },
     hovers: {
         revHilightHoverText: {
             backfaceVisibility: 'hidden',
@@ -404,6 +404,9 @@ export default merge(typography, {
             willChange: 'transform',
             zIndex: '1',
         },
+        hoverTextFill: {
+
+        }
     },
     flex: {
         columnRow: {
