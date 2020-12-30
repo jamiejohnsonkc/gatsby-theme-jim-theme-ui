@@ -15,12 +15,6 @@ export const options = {
 	],
 	bodyFontFamily: ['Roboto', 'georgia', 'serif'],
 	monospaceFontFamily: ['Source Code Pro', 'monospace'],
-	// thin: 200,
-	// light: 300,
-	// regular: 400, //default normal
-	// semibold: 600, //default bold
-	// bold: 700, //default bold
-	// heavy: 900,
 	includeNormalize: true,
 	blockMarginBottom: 2,
 }

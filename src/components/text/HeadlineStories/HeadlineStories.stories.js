@@ -3,7 +3,7 @@ import { jsx, Text } from 'theme-ui'
 import React from 'react'
 
 import TextGrid from '../../TextGrid'
-import Headline from '../../../gatsby-theme-jim-components/src/components/system/atoms/Text/Headline/Headline'
+import Headline from '../../../../../gatsby-theme-jim-components/src/components/text/Headline'
 import TextGridHeader from '../../TextGridHeader'
 
 export default {

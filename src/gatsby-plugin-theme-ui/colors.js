@@ -157,5 +157,5 @@ export default {
 	mastHeadLogo: '',
 	//$  navMenuBackground: "white",
 	//$  navMenuItemHover: palette.violet,
-	//$  navItemActive: palette.tealBright,
-
+	//$  navItemActive: palette.tealBright
+}

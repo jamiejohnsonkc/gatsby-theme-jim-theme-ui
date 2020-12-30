@@ -4,7 +4,7 @@ import React from 'react'
 
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
-import Subhead from '../../../../../gatsby-theme-jim-components/src/components/designElements/Text/Subhead'
+import Subhead from '../../../../../gatsby-theme-jim-components/src/components/text/Subhead'
 
 const SubheadStories = (props) => (
     <>

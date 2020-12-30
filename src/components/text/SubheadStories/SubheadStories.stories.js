@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Text } from 'theme-ui'
 import React from 'react'
-import Subhead from '../../../gatsby-theme-jim-components/src/components/system/atoms/Text/Subhead/Subhead'
+import Subhead from '../../../../../gatsby-theme-jim-components/src/components/text/Subhead'
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
 

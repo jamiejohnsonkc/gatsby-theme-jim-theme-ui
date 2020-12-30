@@ -3,7 +3,7 @@ import { jsx, Text } from 'theme-ui'
 import React from 'react'
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
-import Display from '../../../gatsby-theme-jim-components/src/components/system/atoms/Text/Display'
+import Display from '../../../../../gatsby-theme-jim-components/src/components/text/Display'
 
 export default {
 	title: 'Design_Elements/Type/Styles/Fontweights',

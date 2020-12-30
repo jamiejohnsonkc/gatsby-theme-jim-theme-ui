@@ -1,12 +1,16 @@
 /** @jsx jsx */
 import { jsx, Styled, Text } from 'theme-ui'
 import React from 'react'
-import Headline from '../../gatsby-theme-jim-components/src/components/system/atoms/Text/Headline/Headline'
-import Display from '../../gatsby-theme-jim-components/src/components/system/atoms/Text/Display/Display'
-import Subhead from '../../gatsby-theme-jim-components/src/components/system/atoms/Text/Subhead/Subhead'
-import Subline from '../../gatsby-theme-jim-components/src/components/system/atoms/Text/Subline'
-import Utility from '../../gatsby-theme-jim-components/src/components/system/atoms/Text/Utility/Utility'
-import Caption from '../../gatsby-theme-jim-components/src/components/system/atoms/Text/Caption/Caption'
+import Busker from '../../../../../gatsby-theme-jim-components/src/components/text/Busker'
+import Headline from '../../../../../gatsby-theme-jim-components/src/components/text/Headline'
+import Subhead from '../../../../../gatsby-theme-jim-components/src/components/text/Subhead'
+import Display from '../../../../../gatsby-theme-jim-components/src/components/text/Display'
+import Subline from '../../../../../gatsby-theme-jim-components/src/components/text/Subline'
+import Body from '../../../../../gatsby-theme-jim-components/src/components/text/Body'
+import Caption from '../../../../../gatsby-theme-jim-components/src/components/text/Caption'
+import Paragraph from '../../../../../gatsby-theme-jim-components/src/components/text/Paragraph'
+import Legal from '../../../../../gatsby-theme-jim-components/src/components/text/Legal'
+import Utility from '../../../../../gatsby-theme-jim-components/src/components/text/Utility'
 
 const TextTest = (props) => (
     <div>

@@ -4,7 +4,6 @@ import React from 'react'
 
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
-import Display from '../../../gatsby-theme-jim-components/src/components/system/atoms/Text/Display'
 
 const TextVariationsStories = (props) => (
     <>

@@ -2,7 +2,7 @@
 import { jsx, Text } from 'theme-ui'
 import React from 'react'
 
-import Subline from '../../../gatsby-theme-jim-components/src/components/system/atoms/Text/Subline/Subline'
+import Subline from '../../../../../gatsby-theme-jim-components/src/components/text/Subline'
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
 

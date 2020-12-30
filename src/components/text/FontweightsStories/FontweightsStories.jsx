@@ -3,7 +3,7 @@ import { jsx, Text } from 'theme-ui'
 import React from 'react'
 
 import TextGridHeader from '../../TextGridHeader'
-import Display from '../../../gatsby-theme-jim-components/src/components/system/atoms/Text/Display'
+import Display from '../../../../../gatsby-theme-jim-components/src/components/text/Display'
 import TextGrid from '../../TextGrid'
 
 const FontweightsStories = (props) => (

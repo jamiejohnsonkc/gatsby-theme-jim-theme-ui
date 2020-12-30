@@ -8,7 +8,7 @@ export default {
 	title: 'Design Elements/Type/Text',
 }
 
-export const Text_ = (props) => (
+export const TextTest = (props) => (
 	<>
 		<TextGridHeader>Text</TextGridHeader>
 		<TextGrid>

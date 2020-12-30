@@ -29,9 +29,17 @@ export default merge(typography, {
     buttons,
     forms,
     gradients,
-    // breakpoints: ['0em','40em', '51em', '58em', '80em', '100em'], // px-  0, 640, 816, 928, 1280, 1600
+        // breakpoints: ['40em', '51em', '58em', '80em', '100em'], // px-  0, 640, 816, 928, 1280, 1600
+    // breakpoints: ['400px', '816px', '850px', '1024px', '1280px', '1600px'],
+    breakpoints: ['400px', '640px', '800px', '928px', '1280px', '1600px', '2500px'],
+
+
+
+
+
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512, 640, 768],
 
+    // TODO change "container' to 'widths'
     sizes: {
         container: {
             0: '23.6%',
@@ -39,7 +47,8 @@ export default merge(typography, {
             2: '50%',
             3: '61.8%',
             4: '83.82%',
-            5: '100%',
+            5: '96.18%',
+            6: '100%',
         },
     },
 
@@ -55,7 +64,7 @@ export default merge(typography, {
     fontWeights: {
         thin: 200,
         light: 300,
-        regular: 400, // default normal
+        normal: 400, // default normal
         semibold: 600, // default bold
         bold: 700, // default bold
         heavy: 900,
@@ -72,49 +81,65 @@ export default merge(typography, {
         fontWeight: 'bold',
     },
 
-    busker: {
+    // busker: {
+    //     fontFamily: 'heading',
+    //     fontWeight: 'heavy',
+    //     color: 'pink',
+    // },
+headline: {
+    // mb: 2,
+    fontWeight: 'heavy',
+},
+
+    subline: {
         fontFamily: 'heading',
-        fontWeight: 'heavy',
-        color: 'pink',
-    },
-    headline: {
-        fontFamily: 'heading',
-        fontWeight: 'heavy',
-        letterSpacing: 'tight',
-        mb: 4,
-        lineHeight: [1.2, null, null, 1.2, 1.2, 1.2],
+         fontWeight: 'normal',
+        letterSpacing: 'loose',
+        textTransform: 'uppercase',
+        lineHeight: 1.4,
     },
     subhead: {
         fontFamily: 'heading',
-        fontWeight: 'bold',
+        fontWeight: 'semibold',
+        letterSpacing: 'snug',
         mb: 4,
         color: 'text',
-    },
-    subline: {
-        fontFamily: 'heading',
-        fontWeight: 'light',
-        letterSpacing: 'loose',
-        textTransform: 'uppercase',
-        lineHeight: [1.2, null, null, 1.6, 1.4, 1.4],
+        lineHeight: 1.2,
     },
 
     display: {
         fontFamily: 'heading',
         fontWeight: 'normal',
+        lineHeight: 1.4,
+        letterSpacing: 'normal',
+    },
+    busker:{
+        // fontFamily: 'heading',
+        lineHeight: 1.2,
+        letterSpacing: 'tight',
+        // fontSize: 11,
     },
 
-    bodyCopy: {
-        fontFamily: 'body',
-        color: 'text',
+    paragraph: {
+        // fontFamily: 'body',
+        lineHeight: 2,
+        mb: [4,4,null, null, null,null,null,null],
+
     },
+
+    body: {
+        // fontFamily: 'body',
+        lineHeight: 1.8,
+    },
+
     legal: {
-        fontFamily: 'body',
+        // fontFamily: 'body',
         fontWeight: 'normal',
         fontSize: '10px',
         lineHeight: 1.2,
     },
     caption: {
-        fontFamily: 'heading',
+        // fontFamily: 'heading',
         mt: 2,
         mb: 4,
         fontWeight: 'normal',
@@ -129,72 +154,27 @@ export default merge(typography, {
     text: {
         default: {
             color: 'text',
-            fontSize: 3,
-        },
-        d1: {
-            lineHeight: 1.6,
-            fontSize: 5,
-            maxWidth: '41em',
-        },
-        d2: {
             fontSize: 4,
-            lineHeight: 1.6,
-            maxWidth: '41em',
         },
-        d3: {
-            lineHeight: 1.4,
-            fontSize: 3,
-            maxWidth: '40em',
+        heading: {
+            letterSpacing: 'tight',
+            lineHeight: 1.2,
         },
-        d4: {
-            lineHeight: 1.4,
-            fontWeight: 'normal',
-            fontSize: 2,
-            maxWidth: '41em',
-        },
-        p_lg: {
-            color: 'text',
-            fontFamily: 'body',
-            lineHeight: 1.8,
-            fontSize: 3,
-            marginBottom: 4,
+
+
+
+
+
+        p1: {
             maxWidth: '42em',
         },
-        p_md: {
-            color: 'text',
-            fontFamily: 'body',
-            lineHeight: 2,
-            fontSize: 2,
-            marginBottom: 2,
-            maxWidth: '41em',
-        },
-        p_sm: {
-            color: 'text',
-            fontFamily: 'body',
-            lineHeight: 2,
-            marginBottom: 2,
-            fontSize: 1,
-            maxWidth: '41em',
-        },
-        p1: {
-            variant: 'text.copy',
-            lineHeight: 2,
-            fontSize: [2, 3, null, null, 2, null],
-            maxWidth: '41em',
-            mb: 4,
-        },
         p2: {
-            variant: 'text.copy',
-            lineHeight: 2,
-            fontSize: [1, 2, null, null, 2, null],
             maxWidth: '41em',
         },
         p3: {
-            variant: 'text.copy',
-            lineHeight: 2,
-            fontSize: 0,
             maxWidth: '41em',
         },
+
         utility_lg: {
             lineHeight: 2,
             fontSize: 2,
@@ -214,66 +194,6 @@ export default merge(typography, {
             fontFamily: 'body',
             lineHeight: 'body',
              fontWeight: 'normal',
-        },
-
-        hxxxl: {
-            lineHeight: [1.2, null, null, null, 1, null],
-            mb: 4,
-            letterSpacing: 'tight',
-            fontSize: [6, 8, null, 6, 8, null],
-        },
-        h3: {
-            fontFamily: 'heading',
-            fontWeight: 'heavy',
-            lineHeight: 1.2,
-            mb: 2,
-            letterSpacing: 'tight',
-            fontSize: [6, 7, 6, null, 6, null],
-        },
-        hxl: {
-            fontFamily: 'heading',
-            fontWeight: 'heavy',
-            lineHeight: 1.2,
-            letterSpacing: 'tight',
-            fontSize: [5, 6, null, null, 6, null],
-        },
-
-        h1: {
-            fontSize: [6, 7, null, null, 7, null],
-        },
-        h2: {
-            fontSize: 5,
-        },
-        h3: {
-            fontSize: 4,
-        },
-        h4: {
-            fontSize: 3,
-        },
-        h5: {
-            fontSize: 2,
-        },
-        h6: {
-            fontSize: 1,
-        },
-
-        sl1: {
-            fontSize: 6,
-        },
-        sl2: {
-            fontSize: 5,
-        },
-        sl3: {
-            fontSize: 4,
-        },
-        sl4: {
-            fontSize: 3,
-        },
-        sl5: {
-            fontSize: 2,
-        },
-        sl6: {
-            fontSize: 1,
         },
 
         a: {
@@ -340,7 +260,7 @@ export default merge(typography, {
         primaryFaint: '0 0 4px 3px rgba(1.2%, 66.3%, 95.7%, .25)',
         primarySubtleFirmLR: '2px 2px 6px 0px rgba(1.2%, 66.3%, 95.7%, .25)',
     },
-    // boxShadow: (theme) => `0 0 4px ${theme.colors.primary}`, },
+
     hovers: {
         revHilightHoverText: {
             backfaceVisibility: 'hidden',
@@ -404,16 +324,13 @@ export default merge(typography, {
             willChange: 'transform',
             zIndex: '1',
         },
-        hoverTextFill: {
-
-        }
     },
     flex: {
         columnRow: {
-            flexDirection: ['column', 'column', 'column', 'row', 'row', 'row'],
+            flexDirection: ['column', 'column', 'column', 'row', 'row', 'row', 'row', 'row'],
         },
         rowColumn: {
-            flexDirection: ['row', 'row', 'row', 'column', 'column', 'column'],
+            flexDirection: ['row', 'row', 'row', 'column', 'column', 'column', 'column', 'column'],
         },
         row: {
             flexDirection: 'row',
@@ -437,4 +354,5 @@ export default merge(typography, {
         circle: '9999px',
         square: '2px',
     },
+
 })

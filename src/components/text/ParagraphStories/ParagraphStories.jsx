@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import { jsx, Text } from 'theme-ui'
+import { jsx } from 'theme-ui'
 import React from 'react'
 
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
-import Paragraph from '../../../../../gatsby-theme-jim-components/src/components/designElements/Text/Paragraph'
+import Paragraph from '../../../../../gatsby-theme-jim-components/src/components/text/Paragraph'
 
 const ParagraphStories = (props) => (
     <>
@@ -15,11 +15,20 @@ const ParagraphStories = (props) => (
                 gridTemplateRows: '14em 10em 8em',
             }}
         >
-            <Text variant="styles.p3">16px / 3.275em</Text>
-            <p
+            <Paragraph
+                variant="styles.p1"
                 {...props}
                 sx={{
-                    variant: 'text.p1',
+                    maxWidth: [
+                        '33em',
+                        null,
+                        null,
+                        null,
+                        '39em',
+                        '40em',
+                        null,
+                        null,
+                    ],
                 }}
             >
                 Large: Sint proident ea fugiat in fugiat elit est nulla ex enim
@@ -29,13 +38,22 @@ const ParagraphStories = (props) => (
                 consequat culpa aliquip velit. Lorem proident laborum sit amet
                 sunt ex non ipsum in minim. Minim id tempor veniam reprehenderit
                 consequat fugiat consectetur magna non sunt anim.
-            </p>
+            </Paragraph>
 
-            <Text variant="styles.p3">13.5px / .844em</Text>
-            <p
+            <Paragraph
+                variant="styles.p2"
                 {...props}
                 sx={{
-                    variant: 'styles.p_md',
+                    maxWidth: [
+                        '33em',
+                        null,
+                        null,
+                        null,
+                        '39em',
+                        '40em',
+                        null,
+                        null,
+                    ],
                 }}
             >
                 Medium: Sint proident ea fugiat in fugiat elit est nulla ex enim
@@ -45,13 +63,22 @@ const ParagraphStories = (props) => (
                 consequat culpa aliquip velit. Lorem proident laborum sit amet
                 sunt ex non ipsum in minim. Minim id tempor veniam reprehenderit
                 consequat fugiat consectetur magna non sunt anim.
-            </p>
+            </Paragraph>
 
-            <Text variant="styles.p3">12.41px / .78em</Text>
-            <p
+            <Paragraph
+                variant="styles.p1"
                 {...props}
                 sx={{
-                    variant: 'styles.p_sm',
+                    maxWidth: [
+                        '33em',
+                        null,
+                        null,
+                        null,
+                        '39em',
+                        '40em',
+                        null,
+                        null,
+                    ],
                 }}
             >
                 Small: Sint proident ea fugiat in fugiat elit est nulla ex enim
@@ -61,7 +88,7 @@ const ParagraphStories = (props) => (
                 consequat culpa aliquip velit. Lorem proident laborum sit amet
                 sunt ex non ipsum in minim. Minim id tempor veniam reprehenderit
                 consequat fugiat consectetur magna non sunt anim.
-            </p>
+            </Paragraph>
         </TextGrid>
     </>
 )

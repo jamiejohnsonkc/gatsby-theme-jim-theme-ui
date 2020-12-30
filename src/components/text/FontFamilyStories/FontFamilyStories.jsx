@@ -4,7 +4,8 @@ import React from 'react'
 
 import TextGridHeader from '../../TextGridHeader'
 import TextGrid from '../../TextGrid'
-import Display from '../../../gatsby-theme-jim-components/src/components/system/atoms/Text/Display'
+
+import Display from '../../../../../gatsby-theme-jim-components/src/components/text/Display'
 
 const FontFamilyStories = (props) => (
     <>

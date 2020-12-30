@@ -4,8 +4,8 @@ import React from 'react'
 
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
-import Headline from '../../../../../gatsby-theme-jim-components/src/components/designElements/Text/Headline'
-import Busker from '../../../../../gatsby-theme-jim-components/src/components/designElements/Text/Busker'
+import Headline from '../../../../../gatsby-theme-jim-components/src/components/text/Headline'
+import Busker from '../../../../../gatsby-theme-jim-components/src/components/text/Busker'
 
 const HeadlineStories = (props) => (
     <Box mb={6}>

@@ -2,7 +2,7 @@
 import { jsx } from 'theme-ui'
 import React from 'react'
 
-import Utility from '../../../../gatsby-theme-jim-components/src/components/designElements/Text/Utility'
+import Utility from '../../../../gatsby-theme-jim-components/src/components/text/Utility'
 
 const TextGridHeader = (props) => (
     <Utility
