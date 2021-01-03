@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactTypographyPage from './ReactTypographyPage'
 
+
 export default {
-title: 'ReactTypographyPage',
+title: 'Design System/Typography',
 }
 
-export const standard = () => (
-<ReactTypographyPage/>
+export const Summary = (props) => (
+<>
+  <ReactTypographyPage/>
+</>
+
 )

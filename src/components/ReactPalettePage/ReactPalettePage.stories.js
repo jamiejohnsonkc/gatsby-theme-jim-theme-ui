@@ -1,10 +1,15 @@
 import React from 'react'
+
 import ReactPalettePage from './ReactPalettePage'
 
 export default {
-title: 'Pages/ReactPalettePage',
+    title: 'Design System/Colors',
 }
 
-export const standard = () => (
-<ReactPalettePage/>
+export const ColorPalette = (props) => (
+    <>
+
+            <ReactPalettePage />
+
+    </>
 )

@@ -20,339 +20,350 @@ import gradients from './ex-theme-ui/gradients'
 const typography = toTheme(merge(wp2016, options), {})
 
 export default merge(typography, {
-    layout,
-    nav,
-    cards,
-    palette,
-    colors,
-    links,
-    buttons,
-    forms,
-    gradients,
-        // breakpoints: ['40em', '51em', '58em', '80em', '100em'], // px-  0, 640, 816, 928, 1280, 1600
-    // breakpoints: ['400px', '816px', '850px', '1024px', '1280px', '1600px'],
-    breakpoints: ['400px', '640px', '800px', '928px', '1280px', '1600px', '2500px'],
+  layout,
+  nav,
+  cards,
+  palette,
+  colors,
+  links,
+  buttons,
+  forms,
+  gradients,
+  // breakpoints: ['40em', '51em', '58em', '80em', '100em'], // px-  0, 640, 816, 928, 1280, 1600
+  // breakpoints: ['400px', '816px', '850px', '1024px', '1280px', '1600px'],
+  breakpoints: [
+    '400px',
+    '640px',
+    '800px',
+    '928px',
+    '1280px',
+    '1600px',
+    '2500px',
+  ],
 
+  space: [0, 4, 8, 16, 32, 64, 128, 256, 512, 640, 768],
 
-
-
-
-    space: [0, 4, 8, 16, 32, 64, 128, 256, 512, 640, 768],
-
-    // TODO change "container' to 'widths'
-    sizes: {
-        container: {
-            0: '23.6%',
-            1: '38.2%',
-            2: '50%',
-            3: '61.8%',
-            4: '83.82%',
-            5: '96.18%',
-            6: '100%',
-        },
+  // TODO change "container' to 'widths'
+  sizes: {
+    container: {
+      0: '23.6%',
+      1: '38.2%',
+      2: '50%',
+      3: '61.8%',
+      4: '83.82%',
+      5: '96.18%',
+      6: '100%',
     },
+  },
 
-    letterSpacings: {
-        spread: '0.25em',
-        loose: '0.1em',
-        lazy: '.025em',
-        normal: 'null',
-        pinch: '-0.005em',
-        snug: '-0.025em',
-        tight: '-0.05em',
-    },
-    fontWeights: {
-        thin: 200,
-        light: 300,
-        normal: 400, // default normal
-        semibold: 600, // default bold
-        bold: 700, // default bold
-        heavy: 900,
-    },
+  letterSpacings: {
+    spread: '0.25em',
+    loose: '0.1em',
+    lazy: '.025em',
+    normal: 'null',
+    pinch: '-0.005em',
+    snug: '-0.025em',
+    tight: '-0.05em',
+  },
+  fontWeights: {
+    thin: 200,
+    light: 300,
+    normal: 400, // default normal
+    semibold: 600, // default bold
+    bold: 700, // default bold
+    heavy: 900,
+  },
 
-    // Typography variants:
-    caps: {
-        textTransform: 'uppercase',
-        letterSpacing: 'loose',
-    },
-    capsBold: {
-        textTransform: 'uppercase',
-        letterSpacing: 'loose',
-        fontWeight: 'bold',
-    },
+  // Typography variants:
+  caps: {
+    textTransform: 'uppercase',
+    letterSpacing: 'loose',
+  },
+  capsBold: {
+    textTransform: 'uppercase',
+    letterSpacing: 'loose',
+    fontWeight: 'bold',
+  },
 
-    // busker: {
-    //     fontFamily: 'heading',
-    //     fontWeight: 'heavy',
-    //     color: 'pink',
-    // },
-headline: {
+  // busker: {
+  //     fontFamily: 'heading',
+  //     fontWeight: 'heavy',
+  //     color: 'pink',
+  // },
+  headline: {
     // mb: 2,
     fontWeight: 'heavy',
-},
+  },
 
-    subline: {
-        fontFamily: 'heading',
-         fontWeight: 'normal',
-        letterSpacing: 'loose',
-        textTransform: 'uppercase',
-        lineHeight: 1.4,
+  subline: {
+    fontFamily: 'heading',
+    fontWeight: 'normal',
+    letterSpacing: 'loose',
+    textTransform: 'uppercase',
+    lineHeight: 1.4,
+  },
+  subhead: {
+    fontFamily: 'heading',
+    fontWeight: 'semibold',
+    letterSpacing: 'snug',
+    mb: 4,
+    color: 'text',
+    lineHeight: 1.2,
+  },
+
+  display: {
+    fontWeight: 'normal',
+    lineHeight: 1.4,
+    letterSpacing: 'normal',
+  },
+  busker: {
+    // fontFamily: 'heading',
+    lineHeight: 1.2,
+    letterSpacing: 'tight',
+    // fontSize: 11,
+  },
+
+  paragraph: {
+    // fontFamily: 'body',
+    lineHeight: 2,
+    mb: [4, 4, null, null, null, null, null, null],
+  },
+
+  body: {
+    // fontFamily: 'body',
+    lineHeight: 1.8,
+  },
+
+  legal: {
+    // fontFamily: 'body',
+    fontWeight: 'normal',
+    fontSize: '10px',
+    lineHeight: 1.2,
+  },
+  caption: {
+    // fontFamily: 'heading',
+    mt: 2,
+    mb: 4,
+    fontWeight: 'normal',
+    letterSpacing: 'lazy',
+    fontSize: 0,
+    lineHeight: 1.2,
+  },
+  utility: {
+    fontFamily: 'Source Code Pro',
+  },
+
+  text: {
+    default: {
+      color: 'text',
+      fontSize: 4,
     },
-    subhead: {
-        fontFamily: 'heading',
-        fontWeight: 'semibold',
-        letterSpacing: 'snug',
-        mb: 4,
-        color: 'text',
-        lineHeight: 1.2,
-    },
-
-    display: {
-        fontFamily: 'heading',
-        fontWeight: 'normal',
-        lineHeight: 1.4,
-        letterSpacing: 'normal',
-    },
-    busker:{
-        // fontFamily: 'heading',
-        lineHeight: 1.2,
-        letterSpacing: 'tight',
-        // fontSize: 11,
-    },
-
-    paragraph: {
-        // fontFamily: 'body',
-        lineHeight: 2,
-        mb: [4,4,null, null, null,null,null,null],
-
-    },
-
-    body: {
-        // fontFamily: 'body',
-        lineHeight: 1.8,
-    },
-
-    legal: {
-        // fontFamily: 'body',
-        fontWeight: 'normal',
-        fontSize: '10px',
-        lineHeight: 1.2,
-    },
-    caption: {
-        // fontFamily: 'heading',
-        mt: 2,
-        mb: 4,
-        fontWeight: 'normal',
-        letterSpacing: 'lazy',
-        fontSize: 0,
-        lineHeight: 1.2,
-    },
-    utility: {
-        fontFamily: 'Source Code Pro',
-    },
-
-    text: {
-        default: {
-            color: 'text',
-            fontSize: 4,
-        },
-        heading: {
-            letterSpacing: 'tight',
-            lineHeight: 1.2,
-        },
-
-
-
-
-
-        p1: {
-            maxWidth: '42em',
-        },
-        p2: {
-            maxWidth: '41em',
-        },
-        p3: {
-            maxWidth: '41em',
-        },
-
-        utility_lg: {
-            lineHeight: 2,
-            fontSize: 2,
-        },
-        utility_md: {
-            lineHeight: 2,
-            fontSize: 1,
-        },
-        utility_sm: {
-            lineHeight: 2,
-            fontSize: 0,
-        },
+    heading: {
+      letterSpacing: 'tight',
+      lineHeight: 1.2,
     },
 
-    styles: {
-        root: {
-            fontFamily: 'body',
-            lineHeight: 'body',
-             fontWeight: 'normal',
-        },
-
-        a: {
-            color: 'primary',
-        },
-        pre: {
-            fontFamily: 'monospace',
-            overflowX: 'auto',
-            code: {
-                color: 'inherit',
-            },
-        },
-
-        code: {
-            fontFamily: 'monospace',
-            fontSize: 'inherit',
-        },
-        table: {
-            width: '100%',
-            borderCollapse: 'separate',
-            borderSpacing: 0,
-        },
-        th: {
-            textAlign: 'left',
-            borderBottomStyle: 'solid',
-        },
-        td: {
-            textAlign: 'left',
-            borderBottomStyle: 'solid',
-        },
-        img: {
-            maxWidth: '100%',
-        },
-        olPlain: {
-            listStyle: 'none',
-            paddingLeft: 0,
-            bg: 'primary',
-        },
-
-        ulPlain: {
-            listStyle: 'none',
-            paddingLeft: 0,
-            bg: 'secondary',
-        },
-
-        liPlain: {
-            color: '#444',
-            textTransform: 'uppercase',
-        },
+    p1: {
+      maxWidth: '42em',
+    },
+    p2: {
+      maxWidth: '41em',
+    },
+    p3: {
+      maxWidth: '41em',
     },
 
-    shadows: {
-        //* nuetrals
-        subtleSoftFull: '0 0 4px 3px rgba(0, 0, 0, .05)',
-        subtleFirmLR: '2px 2px 6px 0px rgba(0, 0, 0, .075)',
-        present: `0 2px 40px rgba(14,30,37,.16)`,
-        test5: `-10px 10px 80px rgba(0,0,0,.1)`,
-        depth: `0 5px 20px -10px #000`,
-        callOut: `0 0 4.236em rgba(14,30,37,.09)`,
-        uiDivide: `0 2px 20px rgba(14,30,37,.5)`,
+    u1: {
+      lineHeight: 2,
+    },
+    u2: {
+      lineHeight: 2,
+    },
+    u3: {
+      lineHeight: 2,
+    },
+  },
 
-        //* themed
-        primary: `0 0 4px 3px ${colors.primary}`,
-        primaryFaint: '0 0 4px 3px rgba(1.2%, 66.3%, 95.7%, .25)',
-        primarySubtleFirmLR: '2px 2px 6px 0px rgba(1.2%, 66.3%, 95.7%, .25)',
+  styles: {
+    root: {
+      fontFamily: 'body',
+      lineHeight: 'body',
+      fontWeight: 'normal',
     },
 
-    hovers: {
-        revHilightHoverText: {
-            backfaceVisibility: 'hidden',
-            background: 'none',
-            border: '0px',
-            color: 'text',
-            cursor: 'pointer',
-            display: 'inline-flex',
-            margin: '0px',
-            outlineColor: 'primary',
-            overflow: 'hidden',
-            position: 'relative',
-            padding: '0px 4px',
-            textDecoration: 'none',
-            transition:
-                'color 200ms ease-in-out 100ms, transform 100ms ease-out 0s',
-            willChange: 'color, transform',
-            zIndex: '1',
-
-            '&::before, &::after': {
-                content: '""',
-                display: 'block',
-                height: '100%',
-                left: '0px',
-                position: 'absolute',
-                top: '0px',
-                transform: 'translateX(-110%)',
-                transformOrigin: 'left center',
-                transition: 'transform 100ms ease-in 0s',
-                width: '100%',
-                willChange: 'transform',
-                zIndex: '-1',
-            },
-            '&::before': {
-                backgroundColor: 'white',
-                mixBlendMode: 'difference',
-                pointerEvents: 'none',
-                zIndex: '1',
-            },
-            '&::after': {
-                backgroundColor: 'rgb(218,49,46)',
-            },
-            '&:hover::before, &:hover::after': {
-                transform: 'translateX(0px)',
-                transition: 'transform 200ms ease-in-out 100ms',
-            },
-            '&:hover>span': {
-                transform: 'scaleX(0) translateY(-1px)',
-            },
-        },
-        underlineSpan: {
-            height: '2px',
-            backgroundColor: 'primary',
-            bottom: '0px',
-            display: 'block',
-            left: '0px',
-            position: 'absolute',
-            transformOrigin: 'left center',
-            transition: 'transform 200ms ease-out 0s',
-            width: '100%',
-            willChange: 'transform',
-            zIndex: '1',
-        },
+    a: {
+      color: 'primary',
     },
-    flex: {
-        columnRow: {
-            flexDirection: ['column', 'column', 'column', 'row', 'row', 'row', 'row', 'row'],
-        },
-        rowColumn: {
-            flexDirection: ['row', 'row', 'row', 'column', 'column', 'column', 'column', 'column'],
-        },
-        row: {
-            flexDirection: 'row',
-        },
-        column: {
-            flexDirection: 'column',
-        },
-
-        rowWrap: {
-            flexWrap: 'wrap',
-            flexDirection: 'row',
-        },
-        rowNoWrap: {
-            flexWrap: 'noWrap',
-            flexDirection: 'row',
-        },
-    },
-    radii: {
-        rounded: '6px',
-        pill: '3em',
-        circle: '9999px',
-        square: '2px',
+    pre: {
+      fontFamily: 'monospace',
+      overflowX: 'auto',
+      code: {
+        color: 'inherit',
+      },
     },
 
+    code: {
+      fontFamily: 'monospace',
+      fontSize: 'inherit',
+    },
+    table: {
+      width: '100%',
+      borderCollapse: 'separate',
+      borderSpacing: 0,
+    },
+    th: {
+      textAlign: 'left',
+      borderBottomStyle: 'solid',
+    },
+    td: {
+      textAlign: 'left',
+      borderBottomStyle: 'solid',
+    },
+    img: {
+      maxWidth: '100%',
+    },
+    olPlain: {
+      listStyle: 'none',
+      paddingLeft: 0,
+      bg: 'primary',
+    },
+
+    ulPlain: {
+      listStyle: 'none',
+      paddingLeft: 0,
+      bg: 'secondary',
+    },
+
+    liPlain: {
+      color: '#444',
+      textTransform: 'uppercase',
+    },
+  },
+
+  shadows: {
+    //* nuetrals
+    subtleSoftFull: '0 0 4px 3px rgba(0, 0, 0, .05)',
+    subtleFirmLR: '2px 2px 6px 0px rgba(0, 0, 0, .075)',
+    present: `0 2px 40px rgba(14,30,37,.16)`,
+    test5: `-10px 10px 80px rgba(0,0,0,.1)`,
+    depth: `0 5px 20px -10px #000`,
+    callOut: `0 0 4.236em rgba(14,30,37,.09)`,
+    uiDivide: `0 2px 20px rgba(14,30,37,.5)`,
+
+    //* themed
+    primary: `0 0 4px 3px ${colors.primary}`,
+    primaryFaint: '0 0 4px 3px rgba(1.2%, 66.3%, 95.7%, .25)',
+    primarySubtleFirmLR: '2px 2px 6px 0px rgba(1.2%, 66.3%, 95.7%, .25)',
+  },
+
+  hovers: {
+    revHilightHoverText: {
+      backfaceVisibility: 'hidden',
+      background: 'none',
+      border: '0px',
+      color: 'text',
+      cursor: 'pointer',
+      display: 'inline-flex',
+      margin: '0px',
+      outlineColor: 'primary',
+      overflow: 'hidden',
+      position: 'relative',
+      padding: '0px 4px',
+      textDecoration: 'none',
+      transition: 'color 200ms ease-in-out 100ms, transform 100ms ease-out 0s',
+      willChange: 'color, transform',
+      zIndex: '1',
+
+      '&::before, &::after': {
+        content: '""',
+        display: 'block',
+        height: '100%',
+        left: '0px',
+        position: 'absolute',
+        top: '0px',
+        transform: 'translateX(-110%)',
+        transformOrigin: 'left center',
+        transition: 'transform 100ms ease-in 0s',
+        width: '100%',
+        willChange: 'transform',
+        zIndex: '-1',
+      },
+      '&::before': {
+        backgroundColor: 'white',
+        mixBlendMode: 'difference',
+        pointerEvents: 'none',
+        zIndex: '1',
+      },
+      '&::after': {
+        backgroundColor: 'rgb(218,49,46)',
+      },
+      '&:hover::before, &:hover::after': {
+        transform: 'translateX(0px)',
+        transition: 'transform 200ms ease-in-out 100ms',
+      },
+      '&:hover>span': {
+        transform: 'scaleX(0) translateY(-1px)',
+      },
+    },
+    underlineSpan: {
+      height: '2px',
+      backgroundColor: 'primary',
+      bottom: '0px',
+      display: 'block',
+      left: '0px',
+      position: 'absolute',
+      transformOrigin: 'left center',
+      transition: 'transform 200ms ease-out 0s',
+      width: '100%',
+      willChange: 'transform',
+      zIndex: '1',
+    },
+  },
+  flex: {
+    columnRow: {
+      flexDirection: [
+        'column',
+        'column',
+        'column',
+        'row',
+        'row',
+        'row',
+        'row',
+        'row',
+      ],
+    },
+    rowColumn: {
+      flexDirection: [
+        'row',
+        'row',
+        'row',
+        'column',
+        'column',
+        'column',
+        'column',
+        'column',
+      ],
+    },
+    row: {
+      flexDirection: 'row',
+    },
+    column: {
+      flexDirection: 'column',
+    },
+
+    rowWrap: {
+      flexWrap: 'wrap',
+      flexDirection: 'row',
+    },
+    rowNoWrap: {
+      flexWrap: 'noWrap',
+      flexDirection: 'row',
+    },
+  },
+  radii: {
+    rounded: '6px',
+    pill: '3em',
+    circle: '9999px',
+    square: '2px',
+  },
 })

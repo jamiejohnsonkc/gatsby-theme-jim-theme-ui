@@ -4,23 +4,23 @@ import React from 'react'
 import TextGrid from '../../TextGrid'
 
 export default {
-	title: 'Design Elements/Type/Display Text',
+	title: 'Design System/Typography',
 }
 
 export const DisplayText = (props) => (
-	<>
-		<TextGrid>
-			<Text variant='styles.p3'>37.33px / 2.33em</Text>
-			<Text variant='styles.d1'>Display 1</Text>
+  <>
+    <TextGrid>
+      <Text variant="styles.p3">37.33px / 2.33em</Text>
+      <Text variant="styles.d1">Display 1</Text>
 
-			<Text variant='styles.p3'>26.6 / 1.66em</Text>
-			<Text variant='styles.d2'>Display 2</Text>
+      <Text variant="styles.p3">26.6 / 1.66em</Text>
+      <Text variant="styles.d2">Display 2</Text>
 
-			<Text variant='styles.p3'>22.45px / 1.40em</Text>
-			<Text variant='styles.d3'>Display 3</Text>
+      <Text variant="styles.p3">22.45px / 1.40em</Text>
+      <Text variant="styles.d3">Display 3</Text>
 
-			<Text variant='styles.p3'>16px / 1em</Text>
-			<Text variant='styles.d4'>Display 4</Text>
-		</TextGrid>
-	</>
+      <Text variant="styles.p3">16px / 1em</Text>
+      <Text variant="styles.d4">Display 4</Text>
+    </TextGrid>
+  </>
 )

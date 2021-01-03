@@ -5,11 +5,12 @@ import TextGridHeader from '../../TextGridHeader'
 import TextGrid from '../../TextGrid'
 import Display from '../../../../../gatsby-theme-jim-components/src/components/text/Display'
 
+
 export default {
-	title: 'Design_Elements/Type/Styles/Font Families',
+	title: 'Design System/Typography',
 }
 
-export const standard = (props) => (
+export const FontFamilies = (props) => (
 	<>
 		<TextGridHeader>Font Families</TextGridHeader>
 		<TextGrid
@@ -52,5 +53,5 @@ export const standard = (props) => (
 				ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx 123456789!@#$%
 			</Display>
 		</TextGrid>
-	</>
+		</>
 )

@@ -6,11 +6,12 @@ import Subline from '../../../../../gatsby-theme-jim-components/src/components/t
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
 
+
 export default {
-	title: 'Design Elements/Type/Sublines',
+	title: 'Design System/Typography/Elements',
 }
 
-export const standard = (props) => (
+export const Sublines = (props) => (
 	<>
 		<TextGridHeader>Sublines</TextGridHeader>
 		<TextGrid>
@@ -74,5 +75,5 @@ export const standard = (props) => (
 				Subline 6
 			</Subline>
 		</TextGrid>
-	</>
+		</>
 )

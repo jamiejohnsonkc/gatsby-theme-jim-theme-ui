@@ -16,10 +16,10 @@ import Paragraph from '../../../../../gatsby-theme-jim-components/src/components
 import Legal from '../../../../../gatsby-theme-jim-components/src/components/text/Legal'
 
 export default {
-	title: 'Design Elements/Type/Composition',
+	title: 'Design System/Typography/Usage',
 }
 
-export const standard = (props) => (
+export const MixedCompositions = (props) => (
 	 <Box mb={6}>
         <Box mb={6}>
             <TextGridHeader>Heads & Subs</TextGridHeader>

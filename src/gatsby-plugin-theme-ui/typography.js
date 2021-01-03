@@ -13,7 +13,7 @@ export const options = {
 		'Helvetica',
 		'sans-serif',
 	],
-	bodyFontFamily: ['Roboto', 'georgia', 'serif'],
+	bodyFontFamily: ['Neuton', 'georgia', 'serif'],
 	monospaceFontFamily: ['Source Code Pro', 'monospace'],
 	includeNormalize: true,
 	blockMarginBottom: 2,

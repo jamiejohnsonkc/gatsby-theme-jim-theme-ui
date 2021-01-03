@@ -5,12 +5,12 @@ import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
 
 export default {
-	title: 'Design Elements/Type/Styles/Variations',
+	title: 'Design System/Typography/Elements',
 }
 
-export const standard = (props) => (
+export const Utilities = (props) => (
 	<>
-		<TextGridHeader>Style Variations</TextGridHeader>
+		<TextGridHeader>Utilities &amp; Variants</TextGridHeader>
 		<TextGrid
 			{...props}
 			sx={{

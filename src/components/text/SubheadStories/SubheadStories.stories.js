@@ -5,12 +5,13 @@ import Subhead from '../../../../../gatsby-theme-jim-components/src/components/t
 import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
 
+
 export default {
-	title: 'Design Elements/Type/Subheads',
+	title: 'Design System/Typography/Elements',
 }
 
-export const standard = (props) => (
-	<>
+export const Subheads = (props) => (
+<>
 		<TextGridHeader>Subheads</TextGridHeader>
 		<TextGrid>
 			<Text variant='styles.p3'>37.33px / 2.333em</Text>
@@ -73,5 +74,6 @@ export const standard = (props) => (
 				Subhead h6
 			</Subhead>
 		</TextGrid>
-	</>
-)
+
+		</>
+		)

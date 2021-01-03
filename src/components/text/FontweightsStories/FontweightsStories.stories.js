@@ -5,12 +5,13 @@ import TextGrid from '../../TextGrid'
 import TextGridHeader from '../../TextGridHeader'
 import Display from '../../../../../gatsby-theme-jim-components/src/components/text/Display'
 
+
 export default {
-	title: 'Design_Elements/Type/Styles/Fontweights',
+	title: 'Design System/Typography',
 }
 
-export const standard = (props) => (
-	<>
+export const FontWeights = (props) => (
+<>
 		<TextGridHeader>Font Weights</TextGridHeader>
 		<TextGrid
 			{...props}
@@ -69,5 +70,5 @@ export const standard = (props) => (
 				ABCDEFGHIJKLMNOPQRSTUVWXYZ abcefghijklmnopqrstuvwzyx 123456789!@#$%
 			</Display>
 		</TextGrid>
-	</>
+		</>
 )

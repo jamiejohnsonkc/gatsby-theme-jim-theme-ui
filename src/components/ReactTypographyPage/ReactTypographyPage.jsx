@@ -7,10 +7,10 @@ import TextComposition from '../text/TextComposition'
 import HeadlineStories from '../text/HeadlineStories/HeadlineStories'
 
 const ReactTypographyPage = (props) => (
-    <Box p={6}>
+    <>
         <HeadlineStories />
         <TextComposition />
-    </Box>
+    </>
 )
 
 ReactTypographyPage.propTypes = {}

@@ -4,10 +4,10 @@ import React from 'react'
 import ThemeUiColorModeToggle from './ThemeUiColorModeToggle'
 
 export default {
-	title: 'Ui/Inputs/Toggles/Color Mode Toggle',
+	title: 'Ui/Inputs/Toggles',
 }
 
-export const standard = (props) => (
+export const LightDark= (props) => (
 	<>
 		{/* <Box>
 			<ThemeUiColorModeToggle id="ToggleColor" />
