@@ -65,13 +65,22 @@ export default merge(typography, {
     snug: '-0.025em',
     tight: '-0.05em',
   },
+
+  // fonts: {
+  //   heading: 'headerFontFamily',
+  //   body: 'bodyFontFamily',
+  //   mono: 'monoFontFamily',
+  // },
+
   fontWeights: {
-    thin: 200,
+    thin: 100,
+    extraLight: 200,
     light: 300,
     normal: 400, // default normal
     semibold: 600, // default bold
     bold: 700, // default bold
-    heavy: 900,
+    heavy: 800,
+    black: 900,
   },
 
   // Typography variants:
@@ -96,14 +105,14 @@ export default merge(typography, {
   },
 
   subline: {
-    fontFamily: 'heading',
+    // fontFamily: 'heading',
     fontWeight: 'normal',
     letterSpacing: 'loose',
     textTransform: 'uppercase',
     lineHeight: 1.4,
   },
   subhead: {
-    fontFamily: 'heading',
+    // fontFamily: 'heading',
     fontWeight: 'semibold',
     letterSpacing: 'snug',
     mb: 4,
@@ -150,7 +159,7 @@ export default merge(typography, {
     lineHeight: 1.2,
   },
   utility: {
-    fontFamily: 'Source Code Pro',
+    // fontFamily: 'monospace',
   },
 
   text: {

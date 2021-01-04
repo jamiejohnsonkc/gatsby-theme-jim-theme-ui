@@ -82,9 +82,11 @@ const stackFonts = (fonts) => fonts.map(wrapFontFamily).join(', ')
 export const getFonts = (result, opts) => {
   const body = stackFonts(opts.bodyFontFamily)
   const heading = stackFonts(opts.headerFontFamily)
+  const mono = stackFonts(opts.monoFontFamily)
   return {
     body,
     heading,
+    mono,
   }
 }
 
@@ -111,9 +113,11 @@ export const getFontSizes = (result, opts) => {
 export const getLineHeights = (result, opts) => {
   const body = opts.baseLineHeight
   const heading = opts.headerLineHeight
+  const mono = opts.baseLineHeight
   return {
     body,
     heading,
+    mono,
   }
 }
 
@@ -121,10 +125,12 @@ export const getFontWeights = (result, opts) => {
   const body = opts.bodyWeight
   const bold = opts.boldWeight
   const heading = opts.headerWeight
+  const mono = opts.bodyWeight
   return {
     body,
     bold,
     heading,
+    mono,
   }
 }
 

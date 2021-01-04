@@ -6,17 +6,17 @@
 
 import assign from 'object-assign'
 
-const heading = {
-  fontFamily: 'heading',
-}
+// const heading = {
+//   fontFamily: 'heading',
+// }
 
-const body = {
-  fontFamily: 'body',
-}
+// const body = {
+//   fontFamily: 'body',
+// }
 
-const utility = {
-  fontFamily: 'utility',
-}
+// const mono = {
+//   fontFamily: 'monoFontFamily',
+// }
 
 export const styles = {
   root: {
