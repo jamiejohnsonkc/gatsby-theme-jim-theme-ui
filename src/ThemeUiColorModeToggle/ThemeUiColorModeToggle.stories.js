@@ -4,7 +4,7 @@ import React from 'react'
 import ThemeUiColorModeToggle from './ThemeUiColorModeToggle'
 
 export default {
-	title: 'Ui/Inputs/Toggles',
+	title: 'Ui/Toggles',
 }
 
 export const LightDark= (props) => (

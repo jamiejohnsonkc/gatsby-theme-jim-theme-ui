@@ -121,9 +121,10 @@ export default merge(typography, {
   },
 
   display: {
-    fontWeight: 'normal',
-    lineHeight: 1.4,
+    fontWeight: 'semibold',
+    lineHeight: 1.2,
     letterSpacing: 'normal',
+    mb: 4,
   },
   busker: {
     // fontFamily: 'heading',
